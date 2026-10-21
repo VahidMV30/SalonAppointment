@@ -1,0 +1,14 @@
+﻿global using ErrorOr;
+global using FluentValidation;
+global using MediatR;
+global using SalonAppointment.Identity.Application.Common.Constants;
+global using SalonAppointment.Identity.Application.Common.DTOs;
+global using SalonAppointment.Identity.Application.Common.Errors;
+global using SalonAppointment.Identity.Application.Common.Messages;
+global using SalonAppointment.Identity.Application.Interfaces;
+global using SalonAppointment.Identity.Application.Interfaces.Repositories;
+global using SalonAppointment.Identity.Application.Interfaces.Services;
+global using SalonAppointment.Identity.Domain.Entities;
+global using SalonAppointment.Identity.Domain.ValueObjects;
+global using SalonAppointment.Shared.Application.Common.CQRS;
+global using SalonAppointment.Shared.Application.Interfaces.Repositories;

@@ -1,0 +1,17 @@
+﻿global using Carter;
+global using MediatR;
+global using Microsoft.AspNetCore.Builder;
+global using Microsoft.AspNetCore.Http;
+global using Microsoft.AspNetCore.Routing;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.Extensions.DependencyInjection;
+global using SalonAppointment.Identity.Application.Common.DTOs;
+global using SalonAppointment.Identity.Application.Features.Commands.Login;
+global using SalonAppointment.Identity.Application.Features.Commands.Logout;
+global using SalonAppointment.Identity.Application.Features.Commands.Refresh;
+global using SalonAppointment.Identity.Application.Features.Commands.Register;
+global using SalonAppointment.Identity.Application.Features.Queries.Me;
+global using SalonAppointment.Identity.Infrastructure;
+global using SalonAppointment.Shared.Api.Extensions;
+global using SalonAppointment.Identity.Application.Features.Queries.GetAllUsers;
+global using SalonAppointment.Identity.Application.Common.Constants;

@@ -1,0 +1,26 @@
+<Solution>
+  <Folder Name="/http/">
+    <File Path="http/identity.http" />
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path="compose.override.yaml" />
+    <File Path="compose.yaml" />
+  </Folder>
+  <Folder Name="/src/" />
+  <Folder Name="/src/Bootstrapper/">
+    <Project Path="src/Bootstrapper/SalonAppointment.Api/SalonAppointment.Api.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/" />
+  <Folder Name="/src/Modules/Identity/">
+    <Project Path="src/Modules/Identity/SalonAppointment.Identity.Api/SalonAppointment.Identity.Api.csproj" />
+    <Project Path="src/Modules/Identity/SalonAppointment.Identity.Application/SalonAppointment.Identity.Application.csproj" />
+    <Project Path="src/Modules/Identity/SalonAppointment.Identity.Domain/SalonAppointment.Identity.Domain.csproj" />
+    <Project Path="src/Modules/Identity/SalonAppointment.Identity.Infrastructure/SalonAppointment.Identity.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Shared/">
+    <Project Path="src/Shared/SalonAppointment.Shared.Api/SalonAppointment.Shared.Api.csproj" />
+    <Project Path="src/Shared/SalonAppointment.Shared.Application/SalonAppointment.Shared.Application.csproj" />
+    <Project Path="src/Shared/SalonAppointment.Shared.Domain/SalonAppointment.Shared.Domain.csproj" />
+    <Project Path="src/Shared/SalonAppointment.Shared.Infrastructure/SalonAppointment.Shared.Infrastructure.csproj" />
+  </Folder>
+</Solution>

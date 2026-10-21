@@ -1,0 +1,14 @@
+﻿services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2025-latest
+    volumes:
+      - sqlserver-data:/var/opt/mssql
+  
+  seq:
+    image: datalust/seq:latest
+    volumes:
+      - seq-data:/data
+
+volumes:
+  sqlserver-data:
+  seq-data:

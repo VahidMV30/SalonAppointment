@@ -1,0 +1,9 @@
+﻿global using System.Linq.Expressions;
+global using Microsoft.AspNetCore.Builder;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore.ChangeTracking;
+global using Microsoft.EntityFrameworkCore.Diagnostics;
+global using Microsoft.Extensions.DependencyInjection;
+global using SalonAppointment.Shared.Application.Interfaces.Repositories;
+global using SalonAppointment.Shared.Domain.DDD;
+global using SalonAppointment.Shared.Infrastructure.Persistence;
